@@ -1,0 +1,28 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "command line hangman game",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "random-movie": "^1.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrerlander/node-hangman.git"
+  },
+  "keywords": [
+    "hangman",
+    "game"
+  ],
+  "author": "Michael Erlander",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrerlander/node-hangman/issues"
+  },
+  "homepage": "https://github.com/mrerlander/node-hangman#readme"
+}
