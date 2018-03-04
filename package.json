@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "inquirer": "^5.1.0",
-    "random-movie": "^1.4.3"
+    "random-word": "^2.0.0"
   },
   "devDependencies": {},
   "scripts": {

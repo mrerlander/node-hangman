@@ -24,7 +24,7 @@ Word.prototype.display = function () {
             display += " ";
         }
     });
-    console.log(display);
+    console.log(display + "\n");
 }
 
 Word.prototype.letterGuess = function (guess) {
@@ -33,7 +33,6 @@ Word.prototype.letterGuess = function (guess) {
             this.wordArr[i].guessedSwitch();
         }
     }
-    this.display();
 }
 
-module.export = Word;
+module.exports = Word;
