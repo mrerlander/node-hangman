@@ -71,6 +71,11 @@ function gameEnd() {
         newWord.display();
     } else {
         console.log("YOU WIN");
+        newWord.wordArr.forEach(function (element) {
+            element.guessed = true;
+        })
+        console.log("The word was:")
+        newWord.display();
     }
     inquirer.prompt([{
         type: "confirm",
@@ -85,7 +90,7 @@ function gameEnd() {
             allGuessed = false;
             correct = 0;
             guesses = [];
-            newWord.display();
+            console.log("\nYour word:");
             game();
         }
     })
